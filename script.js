@@ -1,34 +1,10 @@
-// var arra = ["Dhrishtadyumna", "Drona" , " Karna" , "Abhimanyu" ,  "Arjuna" , "Bhishma" , "Dhritarashtra" , "Shantanu" , "Jayadratha" ,
-// "shwatthama" , "Damayanti" , "Drupada" , "Kunti" , "Pandu" , "Sahadeva" , "Shalya" , "Anjanaparvana" , "Draupadi" , "Duryodhana" ,  ]
-// to find how many element in your Array
+// // ##LOOP##
+// //Ans=>EK HI CHEEJ KO BAAR BAAR REPERT KARNA
 
-// console.log(arra.length)
+// // var user = ['harsh', 'rohit', 'ram '];
+// // user.forEach(function (value) {
+// //     ;
+// //     console.log(value + ' is good ! ')
+// // })
 
-// to find last element of your array
-
-//  console.log(arra[arra.length - 3]);
-
-//                                                      ##PUSH##
-
-//  ADD VALUE IN LAST 
-// add somthing in your Array "WITH THE HELP  OF PUSH"
-
-// var arr = [1,2,3,4]
-// arr.push(5)
-// console.log(arr)
-
-//                                                    ###POP###
-// REMOVE VALUE from LAST.jitni bar pop likhoge utne last se element hatte jaynge
-// arr.pop()
-// console.log(arr)
-
-//                                                    ###SHIFT###
-// SHIFT REMOVE VALUE IN FRONT /START 
-// arr.shift(11)
-// console.log(arr)
-
-//                                                    ###UNSHIFT###
-// SHIFT ADD VALUE IN FRONT /START 
-// arr.unshift("ADITYA")
-// console.log(arr)
-
+//     foreach use case : whenever you have aaray and you want to perrform a particular operation on every member of the aaray.
