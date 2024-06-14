@@ -39,7 +39,18 @@
 //     console.log(an)
 // }
 
-for (let x = 0; x<110; x++){
+// for (let x = 0; x<110; x++){
 
-    console.log(x+1)
+//     console.log(x+1)
+// }
+
+/////////////////////   aditi's code ///   very helpful 
+// let a =[1,2,3,4,5,6,7,6,5,4,3,21,]
+
+// let a1 = a.filter((x) => x%2===0)
+// console.log(a1)
+
+function arr(){
+    let a = "aditi"
+    console.log(arr(a))
 }
