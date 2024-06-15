@@ -44,13 +44,29 @@
 //     console.log(x+1)
 // }
 
-/////////////////////   aditi's code ///   very helpful 
+/////////////////////   aditi's code ///   very helpful
 // let a =[1,2,3,4,5,6,7,6,5,4,3,21,]
 
 // let a1 = a.filter((x) => x%2===0)
 // console.log(a1)
 
-function arr(){
-    let a = "aditi"
-    console.log(arr(a))
-}
+// function arr(){
+//     let a = "aditi"
+//     console.log(arr(a))
+// }
+
+////////////////////////////////////////////////////////#Operators and Expressions////////////////////////////////////////////////////////////////////////
+
+//  let x = 150;
+//  y = 5;
+// console.log("  x + y = ", x  +  y)
+// console.log("  x - y = ", x  -  y)
+// console.log("  x * y = ", x  *  y)
+// console.log("  x / y = ", x  /  y)
+
+// console.log("  x ** y = ", x  **  y)// exponentia => [isme y, x ka squre ban jayga]
+
+// console.log("  x % y = ", x  %  y)// modules=> [isme divide ka remainder aata ha. (remainder ka pata chalta hai)]
+
+// value of a is 2 turn into 3
+// console.log("x++  =", x++)  //[value +1 ho jati hai ]
