@@ -57,12 +57,12 @@
 
 ////////////////////////////////////////////////////////#Operators and Expressions////////////////////////////////////////////////////////////////////////
 
-//  let x = 150;
-//  y = 5;
+//   let x =150;
+//   y = 5;
 // console.log("  x + y = ", x  +  y)
 // console.log("  x - y = ", x  -  y)
 // console.log("  x * y = ", x  *  y)
-// console.log("  x / y = ", x  /  y)
+//  console.log("  x / y = ", x  /  y)
 
 // console.log("  x ** y = ", x  **  y)// exponentia => [isme y, x ka squre ban jayga]
 
@@ -70,3 +70,37 @@
 
 // value of a is 2 turn into 3
 // console.log("x++  =", x++)  //[value +1 ho jati hai ]
+
+/////////////////////////////////////////////////// ASSIGNMENT OPERATORS/////////////////////////////////////////
+
+//  let assi =11;
+
+// assi+=4             //+=
+// console.log(assi)
+
+// assi-=7             //-=
+// console.log( assi)
+
+// assi *=5
+// console.log( assi)
+
+// assi /=1
+// console.log( assi)
+
+///////////////////////////////////////////////////////#COMPARISON OPERATOR////////////////////////////////////////////////////////////////////////
+/*let ashi1 =10;
+ashi2= 9.4;
+
+console.log("ashi1 == ashi2 is " ,  ashi1 == ashi2 );
+console.log("ashi1 == ashi2 is " ,  ashi1 != ashi2 );
+console.log("ashi1 == ashi2 is " ,  ashi1 === ashi2 );
+console.log("ashi1 == ashi2 is " ,  ashi1 !== ashi2 );
+*/
+
+/////////////////////////////////////////////////////////#LOOPS///////////////////////////////////////////////////////////////////////////////////////////
+
+let
+
+for(let x = 1 ; x<=10 ; x++ ) {
+    console.log(x)
+}
