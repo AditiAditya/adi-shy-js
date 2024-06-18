@@ -99,8 +99,64 @@ console.log("ashi1 == ashi2 is " ,  ashi1 !== ashi2 );
 
 /////////////////////////////////////////////////////////#LOOPS///////////////////////////////////////////////////////////////////////////////////////////
 
-let
+// let sum = 0
+// let n = prompt("Enter the value of n ")
+// n = Number.parseInt(n) 
+// for (let x = 1; x <=n; x++) {
+//     sum += (x + 1)
+//     console.log(x)
+// }
+// console.log("Sum the first " + n + "natural number is " + sum)
 
-for(let x = 1 ; x<=10 ; x++ ) {
-    console.log(x)
+/*
+let obj ={
+    shiv: 99,
+    shivika: 88,
+    ram:89,
+    raj:78,
+    rohan: 67,
+}
+// for in loop
+
+for  (let a in obj){
+    console.log( " Marks of " + a +  " are " +obj[a] )
+}
+
+//for of loop
+for (let b of "Aadi") {
+    console.log(b)
+}
+    */
+
+////////////////////////////////////////////////////////////# WHILE LOOPS///////////////////////////////////////////////////////////////////////////////////////////////
+/*
+let n = prompt("Enter your luckey number ")
+n = Number.parseInt(n)
+let i = 0;
+while(i<n){
+    console.log(i)
+    i++;
+}
+*/
+////////////////////////////////////////////////////////////# DO-WHILE LOOPS///////////////////////////////////////////////////////////////////////////////////////////////
+/*
+let n = prompt("Enter your luckey number ")
+n = Number.parseInt(n)
+
+let i = 10;
+do{
+    console.log(i)
+    i++;
+}while(i < n)*/
+
+//-----------------------------------------------------------------------------PRACTICE-----------------------------------------------------------------------------------------
+
+//IF ,ELES , ELSE IF.
+
+//QUES=> Make a "Good day" greeting if the hour is less than 18:00:
+
+var Time = prompt("Correct Time Please")
+alert(Time)
+if (Time == "18:00 ") {
+    console.log("Good day")
 }
