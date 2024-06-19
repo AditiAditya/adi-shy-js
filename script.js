@@ -155,8 +155,22 @@ do{
 
 //QUES=> Make a "Good day" greeting if the hour is less than 18:00:
 
-var Time = prompt("Correct Time Please")
-alert(Time)
-if (Time == "18:00 ") {
-    console.log("Good day")
+// var Time = prompt("Correct Time Please")
+
+// if (Time == "18:00 ") {
+//     alert(Time)
+//     console.log("Good day")
+// }
+/////////////////////////////////////////////////////////////////#FUNCTIONS/////////////////////////////////////////////////////////////////////////////
+function oneplusAvg(x, y) {
+    return 1 + (x + y )/2
 }
+let x = 11;
+let y = 1;
+let z = 1 
+let xx = 1
+
+console.log("One plus Average of  x and y is ",oneplusAvg(x, y))
+console.log("One plus Average of  y and z is ", oneplusAvg(y, z))
+console.log("One plus Average of  z and x is ", oneplusAvg(z, x))
+console.log("One plus Average of  z and xx is ", oneplusAvg(z, xx))
