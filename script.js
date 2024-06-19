@@ -162,15 +162,28 @@ do{
 //     console.log("Good day")
 // }
 /////////////////////////////////////////////////////////////////#FUNCTIONS/////////////////////////////////////////////////////////////////////////////
-function oneplusAvg(x, y) {
-    return 1 + (x + y )/2
-}
-let x = 11;
-let y = 1;
-let z = 1 
-let xx = 1
+//WITHOUT FUNCTION HUM YESE INDIVISUAL CODE LIKHANGAE EK EK KA NAAM DE KE OR AGAR KUCH CHANGE KARNA HO TO EK EK KARKE KARNA PARAGA
 
-console.log("One plus Average of  x and y is ",oneplusAvg(x, y))
-console.log("One plus Average of  y and z is ", oneplusAvg(y, z))
-console.log("One plus Average of  z and x is ", oneplusAvg(z, x))
-console.log("One plus Average of  z and xx is ", oneplusAvg(z, xx))
+function Naam(name, secText) {
+    console.log(secText + " " + name);
+    console.log(n + " is a good boy");
+}
+
+let n = "Noman"
+let n2 = "Ansh"
+let n3 = "Adarsh"
+let n4 = "Amal"
+let secText = "Good Moring ";
+Naam(n, secText);
+Naam(n2, secText);
+Naam(n3, secText);
+Naam(n4, secText);
+
+
+//KABHI  ISKO  TRY MAT KARNA "DO NOT TRY AT ANY WHERE"
+
+/*console.log(n + " is a good boy");
+console.log(n2 + " is a bad boy");
+console.log(n3 + " is a not good  boy");
+console.log(n4 + " is a average boy");*/
+
