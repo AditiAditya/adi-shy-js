@@ -163,7 +163,7 @@ do{
 // }
 /////////////////////////////////////////////////////////////////#FUNCTIONS/////////////////////////////////////////////////////////////////////////////
 //WITHOUT FUNCTION HUM YESE INDIVISUAL CODE LIKHANGAE EK EK KA NAAM DE KE OR AGAR KUCH CHANGE KARNA HO TO EK EK KARKE KARNA PARAGA
-
+/*
 function Naam(name, secText) {
     console.log(secText + " " + name);
     console.log(n + " is a good boy");
@@ -178,7 +178,7 @@ Naam(n, secText);
 Naam(n2, secText);
 Naam(n3, secText);
 Naam(n4, secText);
-
+*/
 
 //KABHI  ISKO  TRY MAT KARNA "DO NOT TRY AT ANY WHERE"
 
@@ -186,4 +186,21 @@ Naam(n4, secText);
 console.log(n2 + " is a bad boy");
 console.log(n3 + " is a not good  boy");
 console.log(n4 + " is a average boy");*/
+//...............................................................................................//............................................................................................//......................................
+
+// Template literals
+
+////////////////////////////////////////////////make this with String
+//promode is a best friend of raghav
+// let boy1 = "promode"
+// let boy2  = "raghav"
+// console.log(boy1+" " +"is the best friend of raghav");
+
+///////////////////////////////////////////////// Escape Sequence Character
+
+// let fruit = 'Pine\'apple'
+// console.log(fruit);
+
+// let fruit = "Pine\"apple"
+// console.log(fruit);
 
