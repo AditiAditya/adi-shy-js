@@ -204,3 +204,17 @@ console.log(n4 + " is a average boy");*/
 // let fruit = "Pine\"apple"
 // console.log(fruit);
 
+//METHODS 
+
+let  naam = " Harsh"
+
+/*naam.length // to find length
+console.log(naam)*/
+
+// naam.toUpperCase()  // to make all word capital 
+
+//aam.toLowerCase()   // to make all word capital 
+
+naam.slice(2,4)
+
+console.log(naam);
