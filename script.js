@@ -11,6 +11,7 @@
 // console.log(class_12);
 
                                                                              //ARRAY METHODS 
+                                                                             
 
 //let class_12 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
 
@@ -69,9 +70,37 @@ console.log(class_12);
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#REVERCE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //--------Reverse the elements of array[ulta kar dena (a-z)=>(z-a)]
-/*l
-et class_12 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
 
-class_12.reverse()
-console.log(class_12);
-*/
+// let class_12 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
+
+
+// class_12.reverse()
+// console.log(class_12);
+
+//-----------------------------------------------#ARRAY METHODS  2----------------------------------------------------------
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#SHORT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// let class_121 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
+// class_121.sort()
+// console.log(class_121);
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#REVERCE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//--------Reverse the elements of array[ulta kar dena (a-z)=>(z-a)]
+
+// let class_12 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
+
+// class_12.reverse()
+// console.log(class_12);
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#SPLICE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//--------------splice me hum bech me se element ko hatate hai or [splice me ( {start} , {kitne element hatana hai} , {kya add karna hai} ) ]
+
+// let class_12 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
+// class_12.splice(2,3,22,44,1110, 1556,1550)
+// console.log(class_12);
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#SLICE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//------------------------------SLICE KARTA HAI LIKE [ EK SLICE CAKE ]
+
+// let class_12 = ["Arjun", "Payal", "Surbhi", "Mayank", "Kunal", "Shuban", "Radhika", "Eklaviya", "Harry"]
+// let mtv = class_12.slice(3)
+// console.log(mtv);
