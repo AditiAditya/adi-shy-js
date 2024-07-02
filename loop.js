@@ -34,3 +34,31 @@
 //     console.log(i);
 //     i++
 // }while(i<=n)
+
+
+
+
+/* .......................................................................................................................................................................................................................................................... */
+
+//  Arithmetic Operrator
+let x = 50
+let z = 20
+
+// this is basic
+
+ // Adding 
+console.log( "x + z is =", x + z);
+
+ // Substraction 
+console.log( "x - z is =", x - z);
+
+ // Multiplacation 
+console.log( "x * z is =", x * z);
+
+ // Divide
+console.log( "x / z is =", x / z);
+
+//Exponentiation 
+//{matalab power banana x ki power z}
+console.log("x to the power y is", x**z);
+
