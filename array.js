@@ -66,13 +66,30 @@
 // let b = a.split();
 // console.log(b); 0000000000000000000000000000000000000000000000000000000000000000000
 
+// 12. Create an Array from a String*
+//     - Example: Given string "hello", create an array of characters.
+// let arr = ["Hello"]
+// let z = arr.toString()
+// console.log(z);
+
+// 14. *Copy an Array*
+//  Example: Given array [1, 2, 3, 4, 5], create a copy of it.
+let arr = [1, 2, 3, 4, 5]
 
 
+// //----------------------------------------------------------------------------------------------------------------------------
 
 
+// 1.   Write a function to reverse a given string.
+// let x = [1,2,3,4,5,6,7,8,9,10,11]
+// x.reverse()
+// console.log(x);
 
+// 2.  Write a function to check if a given string is a palindrome (reads the same forwards and backwards).
 
-let fruit = ["Apple" , "Mango" , "Banana" , "grapes" , "kiwi"]
-let copyfruit = fruit.slice
-
-console.log(fruit);
+// let a = prompt("give a word  ??")
+// function arr(a) {
+//     let check = a.split("").reverse().join("")
+//     return check ===a
+// }
+// console.log(arr(a))  
