@@ -74,22 +74,72 @@
 
 // 14. *Copy an Array*
 //  Example: Given array [1, 2, 3, 4, 5], create a copy of it.
-let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
 
 
 // //----------------------------------------------------------------------------------------------------------------------------
 
+// Write a JavaScript program to find the minimum number in an array.
 
-// 1.   Write a function to reverse a given string.
-// let x = [1,2,3,4,5,6,7,8,9,10,11]
-// x.reverse()
+//----------------------Mathod 1st
+// let arr = [1, 2, 3, 4, 5]
+// let z = Math.min(...arr)
+// console.log(z);
+
+//----------------------Method 2nd 
+// let m = 100 
+// let n = 82
+// let z = Math.min(m, n)
+// console.log(z);
+
+// Write a JavaScript program to calculate the sum of elements in an array.
+
+//  let l = 1982
+//  let m = 1944
+// let z = (l += m)
+// console.log("value of (l + m) is", z);
+
+//Write a JavaScript program to calculate the average of elements in an array.
+// let m = [1, 2, 6, 4, -5]
+// let n = findaverage
+// console.log("average value of m is ", n);                                         
+
+//Write a JavaScript program to check if an array contains a specific element.
+
+// let fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Pinaaple"];
+// let x = fruits.includes("Mango")
 // console.log(x);
 
-// 2.  Write a function to check if a given string is a palindrome (reads the same forwards and backwards).
+//Write a JavaScript program to reverse an array.
 
-// let a = prompt("give a word  ??")
-// function arr(a) {
-//     let check = a.split("").reverse().join("")
-//     return check ===a
-// }
-// console.log(arr(a))  
+// let Fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Pinaaple"];
+// let fal = Fruits.reverse()
+// console.log(fal);
+
+//Write a JavaScript program to sort an array in decending order.
+
+// let Fruits = [1, 52, 3, 24,53, 72, 82, 93,42, 11, 2, 5, 8, 0]
+//  let f = Fruits.sort(function(a, b) {return b-a})
+// console.log(f);
+
+
+//Write a JavaScript program to sort an array in ascending order.
+
+// let Fruit = [1, 52, 3, 24,53, 72, 82, 93,42, 11, 2, 5, 8, 0]
+// let z = Fruit.sort(function(a, b){a-b});
+// console.log(z);
+
+//Write a JavaScript program to merge two sorted arrays into one.
+
+// let num = [1, 52, 3, 24,53, 72, 82, 93,42, 11, 2, 5, 8, 0]
+// let no = num.sort(function(a ,b){return a-b});
+// // console.log(no);
+
+// let fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Pinaaple"]
+// let f = fruits.sort(function (a, b){return b-a})
+// // console.log(f);
+
+// let merge = num.concat(f)
+// console.log(merge);
+
+//
