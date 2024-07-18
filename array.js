@@ -150,6 +150,26 @@
 
 //Write a JavaScript program to remove a specific element from an array. [remove "anna" ]
 
-let nam = ["Namecheen", "gulabo", "aana", "rahim", "malik"]
-let remove = nam.splice()
-console.log(remove);
+// let nam = ["Namecheen", "gulabo", "aana", "rahim", "malik"]
+//  nam.splice(2, 1, 1242)
+// console.log(nam);
+
+//Write a JavaScript program to clone an array.
+
+// let fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Pinaaple"]
+// let num = [...fruits]
+// console.log(fruits);
+// console.log(num);
+
+//Write a JavaScript program to find the Nth largest number in an array.
+
+// let num = [84, 96, 64, 52, 6, 5, 1]
+
+
+// Write a JavaScript program to find the index of a specific element in an array.
+
+//  let fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Pinaaple"]
+// let m = fruits.indexOf("Apple")
+// console.log(m);
+
+//Write a JavaScript program to count the occurrences of a specific element in an array.
