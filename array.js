@@ -142,4 +142,14 @@
 // let merge = num.concat(f)
 // console.log(merge);
 
-//
+
+//condition? true : false;
+// let x = 12
+// let  a = x>10 ? true : false
+// console.log(a);
+
+//Write a JavaScript program to remove a specific element from an array. [remove "anna" ]
+
+let nam = ["Namecheen", "gulabo", "aana", "rahim", "malik"]
+let remove = nam.splice()
+console.log(remove);
