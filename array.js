@@ -173,3 +173,21 @@
 // console.log(m);
 
 //Write a JavaScript program to count the occurrences of a specific element in an array.
+
+// let age = 25
+// let result =  age >18 ? "adult" :  "not adult" ;
+// console.log(result);
+
+// // for-of loop
+// let str = "javascript";
+
+// for ( let i of str ) {
+//     console.log("i=", i );
+// }
+
+
+// // Practice ques of loops from "apni collage"
+// // Que1.  Print all even number from 0 to 100
+// for (let i= 0; i<=100; i++)
+//     console.log(i);
+
