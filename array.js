@@ -191,3 +191,47 @@
 // for (let i= 0; i<=100; i++)
 //     console.log(i);
 
+
+// DOM Manipulation 
+// Selecting with id
+//<to call your id>
+/* How to call =>
+{document.getElementById("my Id")}
+*/ // Eg.
+
+// let Ch = document.getElementById("channel");
+// console.dir(Ch);
+
+// Selecting with  class.
+//<to call your class {ikhata sabko bulana}>
+/* How to call =>
+{document.getElementsByClassName("my Class")}
+
+*/ // Eg.
+//  let C= document.getElementsByClassName("channel_js");
+//  console.dir(C);
+//  console.log(C);
+
+
+
+//que - create a const object called "profile" to store information  show in the picture (instagram)
+// const profile = {
+//     Username: "shradakhapra",
+//     post: 195,
+//     followers: 569000,
+//     following: 4,
+//     Bluetick: "Yes",
+//     Profileimage: "Yes"
+// }
+// console.log(profile);
+
+//que - create a const object called "mobile" to store information  show in the picture 
+// const mobile ={
+//     Compony: "Redmi",
+//     Model:"Redmi Note 113 pro+",
+// colour: "White",
+// Rating:"4 Star",
+// Price: "30,999",
+// Memory:`256GB`
+// }
+// console.log(mobile)
