@@ -245,5 +245,53 @@
 // else {
 //     console.log(num,"is NOT  a multiple of 5");
 // }
-//jjjhhhhhhhh
-//
+
+/*Ques:- Write a code which can give grades to students acc. to there scores ?
+90-100,A
+70-89,B
+60-69,C
+50-59,D
+0-49,Fall
+*/
+//Ans..
+/*
+let score = prompt("Enter your marks")
+if (score=>90 && score<=100) {
+    console.log("A");
+}
+else if(score>70 && score<=89){
+    console.log("B");
+}
+else if(score>60 && score<=69){
+    console.log("C");
+}
+else if(score>50 && score<=59){
+    console.log("D");
+}
+else{
+    console.log("Fall");
+}
+*/
+
+//Ques:- Creat a game where you start with random number. ask the user to keep gussing no. until the enter a currect number.
+
+// let gamenum = 45 
+// let usernum = prompt("Guss the Number:")
+
+// while (usernum != gamenum) {
+//     usernum = prompt("You enter a wrong number. Guess again")
+// }
+
+// console.log("Congratulation, you enter a correct number");
+
+
+// let username = prompt("Hii User,\nEnter your full name.")
+// let inputname = username.trim()
+// let generatename = ("@"+username +inputname.length);
+// console.log(generatename);
+
+
+let username = prompt("Hi User,\nEnter your full name.");
+let inputname = username.replace(/\s+/g, ''); // Removes all spaces from the input
+let generatename = "@" + inputname + inputname.length;
+console.log(generatename);
