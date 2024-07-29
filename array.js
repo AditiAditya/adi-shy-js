@@ -235,3 +235,15 @@
 // Memory:`256GB`
 // }
 // console.log(mobile)
+
+//Que:- gett user to input a no. using prompt ("Enter a number "). check if the no. is multiple of 5 or not?
+// Ans:- 
+// let num = prompt("Enter a Number")
+// if (num % 5===0) {
+//     console.log(num,"is  a multiple of 5");
+// }
+// else {
+//     console.log(num,"is NOT  a multiple of 5");
+// }
+//jjjhhhhhhhh
+//
