@@ -214,7 +214,7 @@
 
 
 
-//que - create a const object called "profile" to store information  show in the picture (instagram)
+//que - create a const object called "profile" to store information  show in the picture (instagram).
 // const profile = {
 //     Username: "shradakhapra",
 //     post: 195,
@@ -284,14 +284,43 @@ else{
 
 // console.log("Congratulation, you enter a correct number");
 
+// Ques. :- Prompt the user to enter there full name.Creat a user for them based on the input. start user with @, follow by therre full name and ending with the fullname lenth.
 
 // let username = prompt("Hii User,\nEnter your full name.")
 // let inputname = username.trim()
 // let generatename = ("@"+username +inputname.length);
 // console.log(generatename);
 
+//chat gpt (sandeep bhaiya)
+// let username = prompt("Hi User,\nEnter your full name.");
+// let inputname = username.replace(/\s+/g, ''); // Removes all spaces from the input
+// let generatename = "@" + inputname + inputname.length;
+// console.log(generatename);
 
-let username = prompt("Hi User,\nEnter your full name.");
-let inputname = username.replace(/\s+/g, ''); // Removes all spaces from the input
-let generatename = "@" + inputname + inputname.length;
-console.log(generatename);
+//Que:- for a given array with marks of student ->[58,95,44,37,76,60]. find marks average marks of the entire class.
+
+// let marks = [58,95,44,37,76,60];
+// let sum = 0;
+
+// for(let val of marks){
+//     sum+=val;
+// }
+// let avg = sum / marks.length;
+// console.log(`avrage value of the class is = ${avg}`);
+
+/* Que:- Creat an array to store companies -> "Bloomberrg" , "Microsoft", "Uber", "Google", "IBM", Netflix.
+a.   Rmove the forst company from the array
+b.   Remove uber & add ola in its place
+c.    Add Amazon at end.  */
+
+// let companies = ["Bloomberrg" , "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+//  a. 
+// companies.shift()
+// console.log(companies);
+//  b. 
+// companies.splice(2,1,"Ola")
+// console.log(companies);
+//  c. 
+// companies.push("Amazon")
+// console.log(companies);
